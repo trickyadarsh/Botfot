@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5844064152").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/DarkAarush/new")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/trickyadarsh/Botfot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://static.apkdone.me/wp-content/uploads/2020/10/Wynk-Music-poster.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/aef53cd36a6a7fa989587.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
